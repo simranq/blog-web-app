@@ -1,23 +1,12 @@
-import React, { useState } from 'react'
-import './App.css'
-import HelloWorld from './components/HelloWorld'
-import Card from './components/Card'
-import Counter from './components/Counter'
-import Input from './components/Input'
-import ToggleButton from './components/ToggleButton'
+import React from 'react'
+// import './App.css'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Header } from './components/Header.jsx';
 
 function App() {
-
   return (
-    <>
-
-      <Counter />
-      <ToggleButton />
-      <Input />
-      <HelloWorld name="Jenn" />
-      <Card />
-    </>
-  )
+    <Header />
+  );
 }
 
 export default App;
