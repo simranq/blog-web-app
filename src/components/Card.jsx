@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Card = () => {
     return (
-        <div className="flex flex-row p-4 w-198 h-auto my-4 mx-14 bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 rounded-lg shadow-lg">
+        <div className=" font-montserrat flex flex-row p-4 w-198 h-auto my-4 mx-14 bg-gradient-to-r from-pink-200 via-purple-200 to-blue-200 rounded-lg shadow-lg">
             <img
                 className="w-48 h-48 rounded-lg flex-shrink-0"
                 src="images/minimalism-img.avif"

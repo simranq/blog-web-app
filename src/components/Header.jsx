@@ -1,7 +1,8 @@
+import Navbar  from "./Navbar.jsx"
 export const Header = ({ blogLogo, blogTitle }) => {
   return (
     <header>
-      <div className="flex items-center p-2 bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 shadow-lg">
+      <div className=" font-montserrat flex items-center p-2 bg-gradient-to-r from-pink-300 via-purple-300 to-blue-300 fixed z-50 w-full">
         <img
           src={blogLogo}
           alt="Blog Logo"
@@ -12,22 +13,7 @@ export const Header = ({ blogLogo, blogTitle }) => {
             {blogTitle}
           </div>
         </h1>
-        <nav className="flex flex-row space-x-4" aria-label="Main navigation">
-          <ul className="flex space-x-9 font-bold text-lg text-white mx-66">
-            <li className="hover:text-yellow-400">
-              <a href="#">Home</a>
-            </li>
-            <li className="hover:text-yellow-400">
-              <a href="#">About</a>
-            </li>
-            <li className="hover:text-yellow-400">
-              <a href="#">Contact</a>
-            </li>
-            <li className="hover:text-yellow-400">
-              <a href="#">Blogs</a>
-            </li>
-          </ul>
-        </nav>
+        <Navbar />
       </div>
     </header>
   );
