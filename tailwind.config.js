@@ -8,6 +8,7 @@ module.exports = {
         colors: {
           navbar: '#E5D0AC',
           darkTeal: '#3D8D7A',
+          pinkMauve: "#FFB4A2",
         },
       },
     },

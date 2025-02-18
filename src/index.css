@@ -3,5 +3,55 @@
 @theme {
   --color-navbar: #E5D0AC;
   --font-pacifico: "Pacifico";
-  --color-darkTeal: #3D8D7A,
+  --color-darkTeal: #3D8D7A;
+  --color-pinkMauve: #FFE8B6;
+}
+/* styles.css */
+.parallax {
+  background-image: url("images/minimalism-img.avif");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.scroll-content {
+  display: flex;
+  flex-direction: column;
+  animation: scroll 10s linear infinite;
+}
+ */
+
+ @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.scroll-content {
+  display: flex;
+  animation: scroll 55s linear infinite;
 }

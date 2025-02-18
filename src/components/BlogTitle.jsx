@@ -1,2 +1,2 @@
-const title = "Jenn Blogs";
-export default { title };
+const blogTitle = "simss blog..";
+export default blogTitle ;
